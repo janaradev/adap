@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Heebo',sans-serif;
+}
+
+#header{
+    padding: 40px 0;
+}
+.header-nav a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    padding: 0 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+
+
+/*HERO*/
+
+
+#hero{
+    padding: 80px 0;
+}
+.hero-title h1{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+}
+
+.hero-title button{
+    width: 62px;
+    height: 25px;
+    background: #FF7C7C;
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.hero-title h4{
+    font-weight: 400;
+    font-size: 20px;
+    color: #21243D;
+    padding: 20px 0;
+}
+.hero-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 30px 0;
+}
+
+.hero-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head-nav h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243D;
+}
+.head-nav h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: #21243D;
+    padding: 20px 0;
+}
+
+.head-nav p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.head-nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading imo{
+    margin: 40px 0;
+}
+
+#footer{
+    padding: 80px 0;
+}
+.footer p{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #21243D;
+}
+
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.footer-info a{
+    font-size: 40px;
+    margin: 30px 20px;
+    color: #21243D;
+}
