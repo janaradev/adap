@@ -147,10 +147,10 @@ body{
     color: #21243D;
     padding: 40px;
 }
-.future{
-    display: flex;
-    align-items: center;
-}
+/*.future{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
 .future-nav h1{
     font-weight: 700;
     font-size: 30px;

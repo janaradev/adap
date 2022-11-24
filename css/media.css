@@ -6,32 +6,132 @@
 @media (max-width: 1200px) {
 }
 @media (max-width: 1024px) {
-    .hero-title {
-        width: 577px;
-    }
 }
 @media (max-width: 992px) {
-    .blocks{
-        width: 348px;
-    }
 }
-@media(max-width: 768px){
+@media(max-width: 768px) {
+    .hero-title p {
+        width: 510px;
+    }
+    .blocks {
+        width:309px;
+}
+    .block p{
+        width: 302px;
+    }
     .future-nav{
         width: 3px;
     }
-}
+    }
 @media (max-width: 576px) {
-
+    .hero-title p {
+        width: 316px;
+    }
+    .block p {
+        width: 236px;
+    }
+    .featured{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .future{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .future-nav{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .line {
+        width: 532px;
+    }
 }
 @media (max-width: 451px) {
+    .hero-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
 
+    }
+    .block p{
+        width: 304px;
+    }
+    .block-pne{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .future-nav h5{
+        width: 432px;
+    }
+    .line{
+        width:382px;
+    }
+    .hero img{
+        margin: 0 40px;
+    }
 }
 @media (max-width: 400px) {
 
+    .hero-title h1{
+        text-align: center;
+    }
+    .future-nav h5 {
+        width: 362px;
+    }
+    .lineP{
+
+    }
 }
 @media (max-width: 376px) {
-
+    .hero img{
+        margin: 40px 20px;
+    }
+    .line{
+        width: 332px;
+    }
+    .hero-title p {
+        width: 277px;
+    }
+    .future-nav h5 {
+        width: 288px;
+    }
+    .line{
+        width: 368px;
+    }
 }
 @media (max-width: 320px) {
-
+    .line{
+        width: 280px;
+    }
+    .block-pne{
+        margin: 0 40px;
+    }
+    .header-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
